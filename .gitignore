@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# MindSpore / training artifacts
+checkpoints/*
+!checkpoints/.gitkeep
+*.ckpt
+*.mindir
+*.onnx
+
+# Data caches (keep data/.gitkeep)
+data/*
+!data/.gitkeep
+*.csv
+!assets/**
+
+# Plots generated at runtime (keep placeholders docs)
+# demo PNGs 需要提交作业，故不忽略 assets/demo 下图片
+# assets/demo/*.png
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+runs/
+outputs/

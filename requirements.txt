@@ -1,0 +1,14 @@
+# MindSpore 创新训练营 · 中文情感分类（Windows CPU）
+# 请在已装好 MindSpore 2.10.0 CPU 的 conda 环境中安装其余依赖。
+# MindSpore 官方 Windows CPU 轮子：https://www.mindspore.cn/install
+#
+# 若环境里已有 mindspore==2.10.0，可跳过下一行或保持钉死以便复现：
+mindspore==2.10.0
+
+numpy>=1.21.0,<2.0.0
+pandas>=1.5.0,<2.3.0
+matplotlib>=3.5.0,<3.9.0
+scikit-learn>=1.0.0,<1.6.0
+tqdm>=4.64.0
+jupyter>=1.0.0
+ipykernel>=6.0.0
